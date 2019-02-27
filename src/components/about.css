@@ -1,0 +1,30 @@
+.header-image-about {
+  width: 100%;
+  min-height:230px;
+  margin-top: -2em;
+  margin-bottom: 2em;
+}
+
+.about-profile-pic {
+  float: left;
+  margin: 0 1em 1em 0;
+  width: 45%;
+}
+
+.bulletpoint {
+	color:grey;
+	font-weight: bold;
+}
+
+
+.title {
+	text-align: center;
+	margin:0;
+	padding:0;
+	padding-bottom: 10px;
+}
+
+.test{
+	padding-bottom: 20px;
+	max-width: 800px;
+}

@@ -1,0 +1,19 @@
+.person-wrapper {
+  margin-bottom: 2em;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.profile-pic {
+  width: auto;
+  height:100px;
+}
+
+h3 {
+  margin:.5em 0em .5em 0em;
+}
+
+.projects-container {
+	padding-top: 6em;
+
+}

@@ -1,0 +1,36 @@
+nav.navbar, .navbar-default {
+  background-color: rgba(120,0,0,0.3) !important;
+}
+
+.navbar-nav {
+    margin:0 auto 0 auto;
+    padding-right:2.5em;
+    font-size: 1.25em;
+
+}
+
+.navpad{
+  padding:5px 25px 0px 25px;
+  color:white;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.navbar-brand {
+  margin-left: 10px;
+  font-size: 2em;
+  font-family: 'Roboto Condensed', sans-serif;
+  position: relative-top;
+  width: 5%;
+  text-align: 
+}
+
+ .navbar-toggler-icon {
+    background-color: rgba(225,225,225,1);
+}
+
+.navbar-toggler {
+    background-color: rgba(225,225,225,1);
+    margin-right:10px;
+   }
+
