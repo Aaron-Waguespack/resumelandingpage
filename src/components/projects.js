@@ -6,7 +6,7 @@ import {Container, Row} from 'react-bootstrap';
 import './projects.css';
 ;
 
-export default class Home extends Component {
+export default class Projects extends Component {
 
 	render() {
 

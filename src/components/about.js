@@ -1,32 +1,27 @@
-import React, { Component } from 'react'
-import { Container, Col, Image } from 'react-bootstrap';
+import React, { Component } from 'react';
+import { Container, Row, Col, Image } from 'react-bootstrap';
 import './about.css';
 
-export default class About extends Component {
+export default class Projects extends Component {
   render() {
     return (
       <div>
-        <Image src="assets/old14c.jpg" className="header-image-about" />
-        <Container className="test">
-          <Col  lg={12}>
-            <Image src="assets/profile01.jpg" className="about-profile-pic" roundedCircle />
-            <h2 className='title'>Aaron Waguespack</h2>
-            <h4 className='title'>Professional Summary</h4>
-            <p> Skilled finance professional with 14 years of experience in industry leading technology, telecom and service related companies looking to move into web development. Entire business cycle modeling experience from: long range planning, annual operating plans to monthly forecasts and closings. Primary focus in financial, forecast, budget and income summary modeling as well as ERP system management and data management.</p>
-            <Container>
-            <h4> Aptitudes include: </h4>
-            <p className="bulletpoint">● Capital and OPEX budgeting and modeling </p>
-            <p className="bulletpoint">● Predictive financial modeling and Metric tracking</p>
-            <p className="bulletpoint">● Financial statement analysis</p>
-            <p className="bulletpoint">● Month End Closings </p>
-            <p className="bulletpoint">● Headcount and Commission Management</p>
-            <p className="bulletpoint">● Executive-level Quarterly & Year End presentation skills</p>
-            <p className="bulletpoint">● Capital and OPEX budgeting and modeling </p>
-            <p className="bulletpoint">● Capital and OPEX budgeting and modeling </p>
-            <h4>Technical Skills: </h4>
-            <p className="bulletpoint">Microsoft Office, Advanced Excel, Adaptive, GP, Office Connect, MDS, Essbase, Hyperion, Oracle, SAP, Adaptive, Management Reporter, internal ERP financial systems, Salesforce.com, HTML5, CSS3, Bootstrap 3-4, Javascript, jQuery, Node JS, GIT, GitHub, SQL, MySQL, ExpressJS, MongoDB, PassportJS, NPM, DOM Manipulation, REST, Python</p>
-            </Container>
-          </Col>
+        <Image src="assets/old9c.jpg" className="header-image-about" />
+        <Container className='container-about'>
+          <h2>About</h2>
+          <Row>
+            <Col xs={12} sm={8} className="main-section">
+              <p> Skilled finance professional with 14 years of experience in industry leading technology, telecom and service related companies looking to move into web development. Entire business cycle modeling experience from: long range planning, annual operating plans to monthly forecasts and closings. Primary focus in financial, forecast, budget and income summary modeling as well as ERP system management and data management.</p>
+              <p>Sometimes you learn more from your mistakes than you do from your masterpieces. Here's something that's fun. If you overwork it you become a cloud killer. There's nothing worse than a cloud killer. These trees are so much fun. I get started on them and I have a hard time stopping.</p>
+              <p>Trees grow in all kinds of ways. They're not all perfectly straight. Not every limb is perfect. You can't make a mistake. Anything that happens you can learn to use - and make something beautiful out of it. The light is your friend. Preserve it. If these lines aren't straight, your water's going to run right out of your painting and get your floor wet.</p>
+              <p>Anyone can paint. This is the way you take out your flustrations. This is where you take out all your hostilities and frustrations. It's better than kicking the puppy dog around and all that so.</p>
+              <p>Water's like me. It's laaazy ... Boy, it always looks for the easiest way to do things Let's make some happy little clouds in our world. This is a happy place, little squirrels live here and play. We'll do another happy little painting. A fan brush is a fantastic piece of equipment. Use it. Make friends with it. We might as well make some Almighty mountains today as well, what the heck.</p>
+            </Col>
+            <Col xs={12} sm={4} className="sidebar-section">
+              <Image src="assets/dog-people.jpg" />
+              <p>I spend a lot of time walking around in the woods and talking to trees, and squirrels, and little rabbits and stuff. The secret to doing anything is believing that you can do it. Anything that you believe you can do strong enough, you can do. Anything. As long as you believe. Just go out and talk to a tree. Make friends with it. I guess that would be considered a UFO. A big cotton ball in the sky. Tree trunks grow however makes them happy. In nature, dead trees are just as normal as live trees.</p>
+            </Col>
+          </Row>
         </Container>
       </div>
     )

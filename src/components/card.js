@@ -1,6 +1,6 @@
 import React from 'react';
 import {Col, Image} from 'react-bootstrap';
-import './projects.css';
+import './card.css';
 
 const Card =({name, desc, id, image, link, gitlink}) => {
 	return(
