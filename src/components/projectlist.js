@@ -17,7 +17,7 @@ gitlink: "https://github.com/Aaron-Waguespack/YelpCamp"
 },
 {
 id: 3,
-image:"assets/robofriends.jpg",
+image:"assets/RoboFriends.jpg",
 name: "RoboFriends",
 desc: "Using React this app dynamically creates cards for each robot from a url list. From there the search box removes unrelated cards on the click of each letter. Created with React, React-Dom and tachyons.",
 link: "https://robofriends-aw.herokuapp.com",
@@ -66,7 +66,7 @@ gitlink: "project 4 git link"
 {
 id: 9,
 image:"assets/datingapp.jpg",
-name: "Dating App Landing Page",
+name: "Dating App",
 desc: "Landing Page with navbar, buttons, which uses Bootstrap 3 and Google Fonts",
 link: "https://robofriends-aw.herokuapp.com",
 gitlink: "project 3 git link"
@@ -74,7 +74,7 @@ gitlink: "project 3 git link"
 {
 id: 10,
 image:"assets/museumofcandy.jpg",
-name: "Museum of Candy Landing Page",
+name: "Museum of Candy",
 desc: "Responsive landing page made with Bootstrap 4 customized not to look like Bootstrap.",
 link: "https://patatapclone-aw.herokuapp.com/",
 gitlink: "project 4 git link"
