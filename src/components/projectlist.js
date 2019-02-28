@@ -3,15 +3,15 @@ export const projects = [
 id: 1,
 image:"assets/facerec.jpg",
 name: "Face Recognition",
-desc: "Project Desc TBD",
-link: "https://robofriends-aw.herokuapp.com/",
+desc: "Project still to be deployed - App that allows you to create and account using a self learning API it locates faces on a picture and puts a box around it. Built with React for the front end, Node.js and Express.js for the back end, Postgresql for the database created on Sublime3 and deployed on heroku.",
+link: "https://github.com/Aaron-Waguespack/robofriends",
 gitlink: "https://github.com/Aaron-Waguespack/robofriends"
 },
 {
 id: 2,
 image:"assets/yelpcamp.jpg",
 name: "Yelp Camp",
-desc: "Project Desc TBD",
+desc: "YelpCamp is a yelp style website for campgrounds.Once you create an account you can add and edit campsites, as well as add comments on other campsites. It uses HTML5, CCS3, Javascript, Bootstrap4, jQuery, Node.js, NPM, Express.js, REST, Passport.js, MongoDB. Develpoed on Cloud9 IDE and hosted on Heroku and MongoLab.",
 link: "https://yelpcamp-aw.herokuapp.com/",
 gitlink: "https://github.com/Aaron-Waguespack/YelpCamp"
 },
