@@ -28,8 +28,8 @@ id: 4,
 image:"assets/patatapclone.jpg",
 name: "Patatap Clone",
 desc: "Music creation app with sound and animations on keypress. Using the jQuery, Howler JS and Paper JS libraries.",
-link: "https://patatapclone-aw.herokuapp.com/",
-gitlink: "project 4 git link"
+link: "https://aaron-waguespack.github.io/patatapclone01/",
+gitlink: "https://github.com/Aaron-Waguespack/patatapclone01"
 },
 {
 id: 5,
