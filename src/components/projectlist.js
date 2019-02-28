@@ -18,7 +18,7 @@ gitlink: "https://github.com/Aaron-Waguespack/YelpCamp"
 {
 id: 3,
 image:"assets/robofriends.jpg",
-name: "Robofriends",
+name: "RoboFriends",
 desc: "Using React this app dynamically creates cards for each robot from a url list. From there the search box removes unrelated cards on the click of each letter. Created with React, React-Dom and tachyons.",
 link: "https://robofriends-aw.herokuapp.com",
 gitlink: "https://github.com/Aaron-Waguespack/robofriends"
