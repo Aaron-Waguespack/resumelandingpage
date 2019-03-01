@@ -1,3 +1,8 @@
+.bulletpoint {
+  color:grey;
+  font-weight: bold;
+}
+
 .header-image-home {
   width: 100%;
   min-height:200px;
@@ -7,23 +12,18 @@
 
 .home-profile-pic {
   float: left;
-  margin: 0 1em 1em 0;
-  width: 45%;
-  padding-bottom: 15px
-}
-
-.bulletpoint {
-	color:grey;
-	font-weight: bold;
+  width: 50%;
+  padding:0 1em 0 1em;
+  margin:50px 0 60px 0;
 }
 
 @media only screen and (max-width: 768px){
   .home-profile-pic {
-  margin: 0 1em 1em 0;
-  width: 45%;
-  float:none;
-
+  margin: 0 2em 1em 0;
+  width: 100%;
+  padding: 0 7em 0 7em;
   }
+
   .header-image-home {
   width: 100%;
   min-height:250px;
@@ -47,3 +47,10 @@
 .gitlink {
   font-size: 20px;
 }
+
+.home-sum{ 
+ }
+
+/*.home-cont{
+  margin-top:-1em;
+} */

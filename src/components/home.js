@@ -11,7 +11,8 @@ export default class Home extends Component {
           <Col  lg={12}>
             <Image src="assets/profile01.jpg" className="home-profile-pic" roundedCircle />
             <h2 className='title'>Aaron Waguespack</h2>
-            <h4 className='title'>Professional Summary</h4>
+            <h4 className='title'>Financial Analyst / Project Manager / </h4>
+            <h4 className='title'>Web Developer</h4>
             <p> Skilled finance professional with 14 years of experience in industry leading technology, telecom, service and agriculture related companies looking to move into web development. Entire business cycle modeling experience from: long range planning, annual operating plans to monthly forecasts and closings. Primary focus in financial, forecast, budget and income summary modeling as well as ERP system management and data management.</p>
             <Container>
             <h4> Aptitudes include: </h4>
