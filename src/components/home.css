@@ -1,7 +1,7 @@
 .header-image-home {
   width: 100%;
-  min-height:230px;
-  margin-top: -2em;
+  min-height:200px;
+  margin-top: -3em;
   margin-bottom: 2em;
 }
 
@@ -22,8 +22,14 @@
   margin: 0 1em 1em 0;
   width: 45%;
   float:none;
-  
+
   }
+  .header-image-home {
+  width: 100%;
+  min-height:250px;
+  margin-top: -3em;
+  margin-bottom: 2em;
+}
 }
 
 .title {

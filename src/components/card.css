@@ -1,10 +1,10 @@
 .person-wrapper {
-  margin-bottom: 2em;
   display: inline-block;
   vertical-align: top;
 }
 
 .profile-pic {
+	margin-top: 1em;
   width: auto;
   height:100px;
 }

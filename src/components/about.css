@@ -9,6 +9,16 @@
 
 .header-image-about {
 	width:100%;
+	margin-top: -2em;
 	margin-bottom: 2em;
 	min-height: 200px;
 }
+@media only screen and (max-width: 768px){
+.header-image-about {
+	min-height: 230px;
+}
+}
+span {
+	padding-left: 20px;
+}
+

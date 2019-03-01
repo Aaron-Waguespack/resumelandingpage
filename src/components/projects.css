@@ -1,6 +1,17 @@
 
+.header-image-projects {
+	width:100%;
+	min-height: 200px;
+	  margin-top: -2em;
+	margin-bottom: 0;
+}
 
+@media only screen and (max-width: 768px){
+.header-image-projects {
+	min-height: 230px;
+}
+}
 .projects-container {
-	padding-top: 6em;
+	padding-top: 1em;
 
 }

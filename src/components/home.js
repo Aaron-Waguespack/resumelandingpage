@@ -26,6 +26,7 @@ export default class Home extends Component {
             <h4>Technical Skills: </h4>
             <p className="bulletpoint">Microsoft Office, Advanced Excel, Adaptive, GP, Office Connect, MDS, Essbase, Hyperion, Oracle, SAP, Adaptive, Management Reporter, internal ERP financial systems, Salesforce.com, HTML5, CSS3, Bootstrap 3-4, Javascript, jQuery, NPM, Node.js, Python, SQL, MySQL, Express.js, MongoDB, Heroku, Passport.js, REST, GIT, GitHub</p>
             <a className="gitlink" href="https://github.com/Aaron-Waguespack/">--- GitHub Link ---</a> 
+            <h3>Contact me at: Aaron_Waguespack@hotmail.com</h3>
             </Container>
           </Col>
         </Container>
