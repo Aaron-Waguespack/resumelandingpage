@@ -12,7 +12,7 @@ export default class Home extends Component {
             <Image src="assets/profile01.jpg" className="home-profile-pic" roundedCircle />
             <h2 className='title'>Aaron Waguespack</h2>
             <h4 className='title'>Professional Summary</h4>
-            <p> Skilled finance professional with 14 years of experience in industry leading technology, telecom and service related companies looking to move into web development. Entire business cycle modeling experience from: long range planning, annual operating plans to monthly forecasts and closings. Primary focus in financial, forecast, budget and income summary modeling as well as ERP system management and data management.</p>
+            <p> Skilled finance professional with 14 years of experience in industry leading technology, telecom, service and agriculture related companies looking to move into web development. Entire business cycle modeling experience from: long range planning, annual operating plans to monthly forecasts and closings. Primary focus in financial, forecast, budget and income summary modeling as well as ERP system management and data management.</p>
             <Container>
             <h4> Aptitudes include: </h4>
             <p className="bulletpoint">● Capital and OPEX budgeting and modeling </p>
@@ -24,7 +24,8 @@ export default class Home extends Component {
             <p className="bulletpoint">● Capital and OPEX budgeting and modeling </p>
             <p className="bulletpoint">● Capital and OPEX budgeting and modeling </p>
             <h4>Technical Skills: </h4>
-            <p className="bulletpoint">Microsoft Office, Advanced Excel, Adaptive, GP, Office Connect, MDS, Essbase, Hyperion, Oracle, SAP, Adaptive, Management Reporter, internal ERP financial systems, Salesforce.com, HTML5, CSS3, Bootstrap 3-4, Javascript, jQuery, Node JS, GIT, GitHub, SQL, MySQL, ExpressJS, MongoDB, PassportJS, NPM, DOM Manipulation, REST, Python</p>
+            <p className="bulletpoint">Microsoft Office, Advanced Excel, Adaptive, GP, Office Connect, MDS, Essbase, Hyperion, Oracle, SAP, Adaptive, Management Reporter, internal ERP financial systems, Salesforce.com, HTML5, CSS3, Bootstrap 3-4, Javascript, jQuery, NPM, Node.js, Python, SQL, MySQL, Express.js, MongoDB, Heroku, Passport.js, REST, GIT, GitHub</p>
+            <a className="gitlink" href="https://github.com/Aaron-Waguespack/">--- GitHub Link ---</a> 
             </Container>
           </Col>
         </Container>

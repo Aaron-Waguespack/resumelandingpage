@@ -9,6 +9,7 @@
   float: left;
   margin: 0 1em 1em 0;
   width: 45%;
+  padding-bottom: 15px
 }
 
 .bulletpoint {
@@ -35,4 +36,8 @@
 .container-home{
 	padding-bottom: 20px;
 	max-width: 800px;
+}
+
+.gitlink {
+  font-size: 20px;
 }
