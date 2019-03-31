@@ -3,7 +3,7 @@ export const projects = [
 id: 1,
 image:"assets/facerec.jpg",
 name: "Face Recognition",
-desc: "Project still to be deployed - App that allows you to create and account using a self learning Clarifai API it locates faces on a picture and puts a box around it. Built with HTML5, CCS3, Javascript, React for the front end, Node.js, NPM, Express.js for the back end. User names and (hashed) password are stored using Postgresql for the database. It was created on Sublime3 and deployed on Heroku.",
+desc: "App that allows you to create and account using a self learning Clarifai API it locates faces on a picture and puts a box around it. Built with HTML5, CCS3, Javascript, React for the front end, Node.js, NPM, Express.js for the back end. User names and (hashed) password are stored using Postgresql for the database. It was created on Sublime3 and deployed on Heroku.",
 link: "https://facerecognition-aw.herokuapp.com/",
 gitlink: "https://github.com/Aaron-Waguespack/facerecognition"
 },
