@@ -13,7 +13,7 @@ export default class Home extends Component {
             <h1 className='title'>Aaron Waguespack</h1>
             <h4 className='title'>Financial Analyst / Project Manager / </h4>
             <h4 className='title'>Web Developer</h4>
-            <p> Skilled finance professional with 14 years of experience in industry leading technology, telecom, service and agriculture related companies looking to move into web development. Entire business cycle modeling experience from: long range planning, annual operating plans to monthly forecasts and closings. Primary focus in financial, forecast, budget and income summary modeling as well as ERP system management and data management.</p>
+            <p> Skilled finance professional with 14 years of experience in industry leading technology, telecom, service and agriculture related companies. Entire business cycle modeling experience from: long range planning, annual operating plans to monthly forecasts and closings. Primary focus in financial, forecast, budget and income summary modeling as well as ERP system management and data management.</p>
             <Container>
             <h4> Aptitudes include: </h4>
             <p className="bulletpoint">● Capital and OPEX budgeting and modeling </p>
