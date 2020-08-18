@@ -11,15 +11,15 @@ export const projects = [
     id: 2,
     image:"assets/QnA1.png",
     name: "Maze Mercantile - Q&A",
-    desc: "Part of a 3 person team updating a client facing retail web portal. Personally in charge of creating a new Q&A module to show questions and their corresponding answers in an expanding and collapsing accordion style. When expanded it makes additional data scrollable without adding to the height of the website. Created modals to show pictures and forms. Module also allows for the addition, updating and reporting of data as well as the ability to upload pictures. Created search functionality as well as dynamic highlighting of search text. Created with React, Node, Express, Bootstrap, Moment",
+    desc: "MAZE Mercantile an e-commerce shoe retailer. Part of a 3 person team updating a client facing retail web portal. Personally in charge of creating a new Q&A module to show questions and their corresponding answers in an expanding and collapsing accordion style. When expanded it makes additional data scrollable without adding to the height of the website. Created modals to show pictures and forms. Module also allows for the addition, updating and reporting of data as well as the ability to upload pictures. Created search functionality as well as dynamic highlighting of search text. Created with React, Node, Express, Bootstrap, Moment",
     link: "https://github.com/Maze-Merch/QnA",
     gitlink: "https://github.com/Maze-Merch/QnA"
 },
 {
     id: 3,
-    image:"assets/mvp.png",
+    image:"assets/mvp1.png",
     name: "Game Picker",
-    desc: "App that allows you to create a account and using a self learning Clarifai API it locates faces on a picture and puts a box around it. Built with HTML5, CCS3, Javascript, React for the front end, Node.js, NPM, Express.js for the back end. User names and (hashed) password are stored using Postgresql for the database. It was created on Sublime3 and deployed on Heroku.",
+    desc: "This project was to create a steam game picker. Using the Steam games API, download a user's game library. Then match library info with game information. Display each game in a card that is filterable by genre. Created using React, Node, Express, Bootstrap",
     link: "https://github.com/Aaron-Waguespack/game_picker",
     gitlink: "https://github.com/Aaron-Waguespack/game_picker"
 },
