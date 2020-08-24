@@ -3,7 +3,7 @@ export const projects = [
     id: 1,
     image:"assets/reviews.png",
     name: "Maze Mercantile - Reviews",
-    desc: "MAZE Mercantile an e-commerce shoe retailer. Part of a 3 person team connecting an existing React.JS front end to a database and deploying on AWS. Personally in charge of the reviews section of the website. Database selection and schema creation. Connecting server and database to existing frontend. Deploying on AWS EC2 micro service with multiple servers and a load balancer.",
+    desc: "Maze Mercantile an e-commerce shoe retailer. Part of a 3 person team connecting an existing React.JS front end to a database and deploying on AWS. Personally in charge of the reviews section of the website. Database selection and schema creation. Connecting server and database to existing frontend. Deploying on AWS EC2 micro service with multiple servers and a load balancer.",
     link: "https://github.com/Aaron-Waguespack/reviewsService",
     gitlink: "https://github.com/Aaron-Waguespack/reviewsService"
 },
@@ -11,7 +11,7 @@ export const projects = [
     id: 2,
     image:"assets/QnA1.png",
     name: "Maze Mercantile - Q&A",
-    desc: "MAZE Mercantile an e-commerce shoe retailer. Part of a 3 person team updating a client facing retail web portal. Personally in charge of creating a new Q&A module to show questions and their corresponding answers. When expanded it makes additional data scrollable without adding to the height of the website. Modals show pictures and forms and allows for the addition, updating and reporting of data as well as the ability to upload pictures. Search functionality filters and dynamically highlights searched text. Created with React, Node, Express, Bootstrap, Moment, AWS, Docker, Heroku.",
+    desc: "Maze Mercantile an e-commerce shoe retailer. Part of a 3 person team updating a client facing retail web portal. Personally in charge of creating a new Q&A module to show questions and their corresponding answers. When expanded it makes additional data scrollable without adding to the height of the website. Modals show pictures and forms and allows for the addition, updating and reporting of data as well as the ability to upload pictures. Search functionality filters and dynamically highlights searched text. Created with React, Node, Express, Bootstrap, Moment, AWS, Docker, Heroku.",
     link: "http://maze-merch-qna.herokuapp.com/",
     gitlink: "https://github.com/Maze-Merch/QnA"
 },
