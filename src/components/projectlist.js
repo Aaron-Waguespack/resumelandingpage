@@ -19,7 +19,7 @@ export const projects = [
     id: 3,
     image:"assets/mvp1.png",
     name: "Game Picker",
-    desc: "Using the Steam games API, download a user's game library. Matches librify information with information from each game. Display each game in a card that is filterable by genre. Created using React, Node, Express, Bootstrap, Heroku",
+    desc: "Using the Steam games API, download a user's game library. Matches library information with information from each game. Dynamically displays each game in a card that is filterable by genre. Created using React, Node, Express, Bootstrap, Heroku",
     link: "https://gamepicker-01.herokuapp.com/",
     gitlink: "https://github.com/Aaron-Waguespack/game_picker"
 },
