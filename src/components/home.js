@@ -19,6 +19,12 @@ export default class Home extends Component {
               I knew my future lay in software development. Over the past 2 years I have
               been developing those skills to pursue my dream of being a web developer. </p>
             <Container>
+            <h4>Technical Skills - Web Development: </h4>
+            <p className="bulletpoint"> <strong>Front-End:</strong> <p>JavaScript (ES5/ES6), ReactJS, React, jQuery, HTML, CSS, Bootstrap</p></p>
+            <p className="bulletpoint"> <strong>Back-End:</strong><p> Amazon Web Services(AWS), Node.js, Express, MySQL, PostgreSql, MongoDB, Heroku, Redis, REST, Express.js</p></p>
+            <p className="bulletpoint"> <strong>Testing:</strong> <p>Jest, Enzyme, Mocha, Chai</p></p>
+            <p className="bulletpoint"> <strong>Additional Tools:</strong> <p>Git, GitHub, Docker, npm, Webpack, Babel, CircleCI</p></p>
+            <p className="bulletpoint"><strong>Techniques:</strong> <p>Agile Development, Pair Programming, Test Driven Development, CI, Remote work</p></p>
             <h4> Financial Aptitudes include: </h4>
             <p className="bulletpoint">● Capital and OPEX budgeting and modeling </p>
             <p className="bulletpoint">● Predictive financial modeling and Metric tracking</p>
@@ -27,12 +33,6 @@ export default class Home extends Component {
             <p className="bulletpoint">● Headcount and Commission Management</p>
             <p className="bulletpoint">● Executive-level Quarterly & Year End presentation skills</p>
             <p className="bulletpoint">● Capital and OPEX budgeting and modeling </p>
-            <h4>Technical Skills - Web Development: </h4>
-            <p className="bulletpoint"> <strong>Front-End:</strong> <p>JavaScript (ES5/ES6), ReactJS, React, jQuery, HTML, CSS, Bootstrap</p></p>
-            <p className="bulletpoint"> <strong>Back-End:</strong><p> Amazon Web Services(AWS), Node.js, Express, MySQL, PostgreSql, MongoDB, Heroku, Redis, REST, Express.js</p></p>
-            <p className="bulletpoint"> <strong>Testing:</strong> <p>Jest, Enzyme, Mocha, Chai</p></p>
-            <p className="bulletpoint"> <strong>Additional Tools:</strong> <p>Git, GitHub, Docker, npm, Webpack, Babel, CircleCI</p></p>
-            <p className="bulletpoint"><strong>Techniques:</strong> <p>Agile Development, Pair Programming, Test Driven Development, CI, Remote work</p></p>
             <h4>Technical Skills - Finance: </h4>
             <p className="bulletpoint"> Microsoft Office, Advanced Excel, Adaptive, GP, Office Connect, MDS,
                  Essbase, Hyperion, Oracle, SAP, Adaptive, Management Reporter, internal ERP financial systems,
