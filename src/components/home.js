@@ -29,10 +29,10 @@ export default class Home extends Component {
             <p className="bulletpoint">● Capital and OPEX budgeting and modeling </p>
             <h4>Technical Skills - Web Development: </h4>
             <p className="bulletpoint"> <strong>Front-End:</strong> <p>JavaScript (ES5/ES6), ReactJS, React, jQuery, HTML, CSS, Bootstrap</p></p>
-            <p className="bulletpoint"> Back-End - Amazon Web Services(AWS), Node.js, Express, MySQL, PostgreSql, MongoDB, Heroku, Redis, REST, Express.js</p>
-            <p className="bulletpoint"> Testing - Jest, Enzyme, Mocha, Chai</p>
-            <p className="bulletpoint"> Additional Tools - Git, GitHub, Docker, npm, Webpack, Babel, CircleCI</p>
-            <p className="bulletpoint">Techniques - Agile Development, Pair Programming, Test Driven Development, CI, Remote work</p>
+            <p className="bulletpoint"> <strong>Back-End:</strong><p> Amazon Web Services(AWS), Node.js, Express, MySQL, PostgreSql, MongoDB, Heroku, Redis, REST, Express.js</p></p>
+            <p className="bulletpoint"> <strong>Testing:</strong> <p>Jest, Enzyme, Mocha, Chai</p></p>
+            <p className="bulletpoint"> <strong>Additional Tools:</strong> <p>Git, GitHub, Docker, npm, Webpack, Babel, CircleCI</p></p>
+            <p className="bulletpoint"><strong>Techniques:</strong> <p>Agile Development, Pair Programming, Test Driven Development, CI, Remote work</p></p>
             <h4>Technical Skills - Finance: </h4>
             <p className="bulletpoint"> Microsoft Office, Advanced Excel, Adaptive, GP, Office Connect, MDS,
                  Essbase, Hyperion, Oracle, SAP, Adaptive, Management Reporter, internal ERP financial systems,
