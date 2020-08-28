@@ -19,7 +19,7 @@ export default class Home extends Component {
               I knew my future lay in software development. Over the past 2 years I have
               been developing those skills to pursue my dream of being a web developer. </p>
             <Container>
-            <h4> Aptitudes include: </h4>
+            <h4> Financial Aptitudes include: </h4>
             <p className="bulletpoint">● Capital and OPEX budgeting and modeling </p>
             <p className="bulletpoint">● Predictive financial modeling and Metric tracking</p>
             <p className="bulletpoint">● Financial statement analysis</p>
@@ -27,13 +27,18 @@ export default class Home extends Component {
             <p className="bulletpoint">● Headcount and Commission Management</p>
             <p className="bulletpoint">● Executive-level Quarterly & Year End presentation skills</p>
             <p className="bulletpoint">● Capital and OPEX budgeting and modeling </p>
-            <h4>Technical Skills: </h4>
-            <p className="bulletpoint">Microsoft Office, Advanced Excel, Adaptive, GP, Office Connect, MDS,
+            <h4>Technical Skills - Web Development: </h4>
+            <p className="bulletpoint"> Front-End - JavaScript (ES5/ES6), ReactJS, React, jQuery, HTML, CSS, Bootstrap</p>
+            <p className="bulletpoint"> Back-End - Amazon Web Services(AWS), Node.js, Express, MySQL, PostgreSql, MongoDB, Heroku, Redis, REST, Express.js</p>
+            <p className="bulletpoint"> Testing - Jest, Enzyme, Mocha, Chai</p>
+            <p className="bulletpoint"> Additional Tools - Git, GitHub, Docker, npm, Webpack, Babel, CircleCI</p>
+            <p className="bulletpoint">Techniques - Agile Development, Pair Programming, Test Driven Development, CI, Remote work</p>
+            <h4>Technical Skills - Finance: </h4>
+            <p className="bulletpoint"> Microsoft Office, Advanced Excel, Adaptive, GP, Office Connect, MDS,
                  Essbase, Hyperion, Oracle, SAP, Adaptive, Management Reporter, internal ERP financial systems,
-                 Salesforce.com, HTML5, CSS3, Bootstrap 3-4, Javascript, NPM, Node.js, SQL, MySQL, PostgresSQL,
-                 Express.js, MongoDB, Heroku, REST, GIT, GitHub</p>
+                 Salesforce.com </p>
             <a className="gitlink" href="https://github.com/Aaron-Waguespack/">--- GitHub Link ---</a>
-            <h3>Contact me at: Aaron_Waguespack@hotmail.com</h3>
+            <h3>Contact me at: Aaron.Paul.Waguespack@gmail.com</h3>
             </Container>
           </Col>
         </Container>
