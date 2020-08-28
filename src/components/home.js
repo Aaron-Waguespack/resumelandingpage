@@ -12,7 +12,7 @@ export default class Home extends Component {
             <Image src="assets/profile01.jpg" className="home-profile-pic" roundedCircle />
             <h1 className='title'>Aaron Waguespack</h1>
             <h4 className='title'>Software Engineer</h4>
-            <h5 className='title'>Financial Analyst / Project Manager</h5>
+            <h5 className='title'>Financial Analyst / Project Manager </h5>
 
             <p> After +10 years as a financial analyst and a MBA I realised my passion
               was on the creation side of things and decided to change careers.
@@ -20,6 +20,7 @@ export default class Home extends Component {
               I knew my future lay in software development. Over the past 2 years I have
               been developing those skills to pursue my dream of being a web developer. </p>
             <Container>
+            <h4>_______________________________</h4>
             <h4>Technical Skills - Web Development: </h4>
             <p className="bulletpoint"> <strong>Front-End:</strong> <p>JavaScript (ES5/ES6), ReactJS, React, jQuery, HTML, CSS, Bootstrap</p></p>
             <p className="bulletpoint"> <strong>Back-End:</strong><p> Amazon Web Services(AWS), Node.js, Express, MySQL, PostgreSql, MongoDB, Heroku, Redis, REST, Express.js</p></p>
