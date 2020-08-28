@@ -13,11 +13,11 @@ export default class Home extends Component {
             <h1 className='title'>Aaron Waguespack</h1>
             <h4 className='title'>Financial Analyst / Project Manager / </h4>
             <h4 className='title'>Web Developer</h4>
-            <p> Skilled finance professional with 14 years of experience in industry leading technology,
-                telecom, service and agriculture related companies. Entire business cycle modeling
-                experience from: long range planning, annual operating plans to monthly forecasts
-                and closings. Primary focus in financial, forecast, budget and income summary modeling
-                as well as ERP system management and data management.</p>
+            <p> After +10 years as a financial analyst and a MBA I realised my passion
+              was on the creation side of things and decided to change careers.
+              Whether it was building budgeting modes or managing various ERP systems,
+              I knew my future lay in software development. Over the past 2 years I have
+              been developing those skills to pursue my dream of being a web developer. </p>
             <Container>
             <h4> Aptitudes include: </h4>
             <p className="bulletpoint">● Capital and OPEX budgeting and modeling </p>
@@ -32,7 +32,7 @@ export default class Home extends Component {
                  Essbase, Hyperion, Oracle, SAP, Adaptive, Management Reporter, internal ERP financial systems,
                  Salesforce.com, HTML5, CSS3, Bootstrap 3-4, Javascript, NPM, Node.js, SQL, MySQL, PostgresSQL,
                  Express.js, MongoDB, Heroku, REST, GIT, GitHub</p>
-            <a className="gitlink" href="https://github.com/Aaron-Waguespack/">--- GitHub Link ---</a> 
+            <a className="gitlink" href="https://github.com/Aaron-Waguespack/">--- GitHub Link ---</a>
             <h3>Contact me at: Aaron_Waguespack@hotmail.com</h3>
             </Container>
           </Col>
