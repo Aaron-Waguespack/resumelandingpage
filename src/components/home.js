@@ -28,7 +28,7 @@ export default class Home extends Component {
             <p className="bulletpoint">● Executive-level Quarterly & Year End presentation skills</p>
             <p className="bulletpoint">● Capital and OPEX budgeting and modeling </p>
             <h4>Technical Skills - Web Development: </h4>
-            <p className="bulletpoint"> Front-End - JavaScript (ES5/ES6), ReactJS, React, jQuery, HTML, CSS, Bootstrap</p>
+            <p className="bulletpoint"> <strong>Front-End:</strong> <p>JavaScript (ES5/ES6), ReactJS, React, jQuery, HTML, CSS, Bootstrap</p></p>
             <p className="bulletpoint"> Back-End - Amazon Web Services(AWS), Node.js, Express, MySQL, PostgreSql, MongoDB, Heroku, Redis, REST, Express.js</p>
             <p className="bulletpoint"> Testing - Jest, Enzyme, Mocha, Chai</p>
             <p className="bulletpoint"> Additional Tools - Git, GitHub, Docker, npm, Webpack, Babel, CircleCI</p>
