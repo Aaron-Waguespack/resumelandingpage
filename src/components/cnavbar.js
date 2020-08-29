@@ -3,18 +3,16 @@ import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './cnavbar.css';
 
-var myNav = document.getElementById('basic-navbar-nav');
-window.onscroll = function () {
-    
-    if (document.body.scrollTop >= 200 ) {
-        myNav.classList.add("nav-colored");
-        myNav.classList.remove("nav-transparent");
-    }
-    else {
-        myNav.classList.add("nav-transparent");
-        myNav.classList.remove("nav-colored");
-    }
-};
+window.addEventListener('scroll', function (e) {
+  var nav = document.getElementById('nav');
+  if (document.documentElement.scrollTop || document.body.scrollTop > window.innerHeight) {
+          nav.classList.add('nav-colored');
+          nav.classList.remove('nav-transparent');
+      } else {
+          nav.classList.add('nav-transparent');
+          nav.classList.remove('nav-colored');
+      }
+});
 
 export default class Navbar2 extends Component {
   constructor() {
@@ -28,7 +26,6 @@ export default class Navbar2 extends Component {
    //clear the text
    onMouseout (e) {setTimeout(() => {this.setState({text : 'AW'})}, 750)
    }
-
 
 
   render() {
