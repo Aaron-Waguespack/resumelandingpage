@@ -3,17 +3,6 @@ import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './cnavbar.css';
 
-window.addEventListener('scroll', function (e) {
-  var nav = document.getElementById('nav');
-  if (document.documentElement.scrollTop || document.body.scrollTop > window.innerHeight) {
-          nav.classList.add('nav-colored');
-          nav.classList.remove('nav-transparent');
-      } else {
-          nav.classList.add('nav-transparent');
-          nav.classList.remove('nav-colored');
-      }
-});
-
 export default class Navbar2 extends Component {
   constructor() {
      super();
