@@ -3,6 +3,19 @@ import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './cnavbar.css';
 
+var myNav = document.getElementById('basic-navbar-nav');
+window.onscroll = function () {
+    
+    if (document.body.scrollTop >= 200 ) {
+        myNav.classList.add("nav-colored");
+        myNav.classList.remove("nav-transparent");
+    }
+    else {
+        myNav.classList.add("nav-transparent");
+        myNav.classList.remove("nav-colored");
+    }
+};
+
 export default class Navbar2 extends Component {
   constructor() {
      super();
@@ -15,6 +28,7 @@ export default class Navbar2 extends Component {
    //clear the text
    onMouseout (e) {setTimeout(() => {this.setState({text : 'AW'})}, 750)
    }
+
 
 
   render() {
