@@ -15,3 +15,10 @@
 	padding-top: 1em;
 
 }
+
+.your-class {
+    z-index:200;
+    position: fixed;
+    bottom:0;  // this can be used to transition a sliding effect. Try -5rem in initial state
+    transition: opacity .1s ease;  // this allows for a smooth transition effect
+}
