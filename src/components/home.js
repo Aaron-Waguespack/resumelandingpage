@@ -11,7 +11,7 @@ export default class Home extends Component {
           <Col  lg={12}>
             <Image src="assets/profile01.jpg" className="home-profile-pic" roundedCircle />
             <h1 className='title'>Aaron Waguespack</h1>
-            <h4 className='title'>Software Engineer</h4>
+            <h4 className='title'>- Software Engineer -</h4>
             <h5 className='title'>Financial Analyst / Project Manager </h5>
 
             <p> After +10 years as a financial analyst and a MBA I realised my passion
