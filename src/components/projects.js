@@ -4,7 +4,8 @@ import CardList from './cardlist';
 import {projects} from './projectlist';
 import {Container, Row, Image} from 'react-bootstrap';
 import './projects.css';
-;
+import Index from './scroll';
+
 
 export default class Projects extends Component {
 
@@ -13,6 +14,7 @@ export default class Projects extends Component {
 		return (
 			<div>
 			 <Image src="assets/carsc.jpg" className="header-image-projects" />
+			 <Index/>
 			<Container className="projects-container">
 				<Row className="show-grid text-center">
 					<CardList projects ={projects}/>
