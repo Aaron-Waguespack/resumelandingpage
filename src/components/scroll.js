@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import './projects.css';
+
 
 class Index extends Component {
   state = {
@@ -31,4 +33,4 @@ class Index extends Component {
 }
 
 
-export default Index
+export default Index;
