@@ -26,7 +26,7 @@ window.addEventListener("scroll", myScrollFunc);
 		return (
 			<div>
 			 <Image src="assets/carsc.jpg" className="header-image-projects" />
-			 <div id = "myID" >Test This</div>
+			 <div id = "myID" class ="bottomMenu hide" >Test This</div>
 			<Container className="projects-container">
 				<Row className="show-grid text-center">
 					<CardList projects ={projects}/>
