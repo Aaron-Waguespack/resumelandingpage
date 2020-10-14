@@ -14,7 +14,10 @@ export default class Projects extends Component {
 		return (
 			<div>
 			 <Image src="assets/carsc.jpg" className="header-image-projects" />
-			 <Index/>
+			 <Index
+			 handleScroll = {this.props.handleScroll}
+			 opacity = {this.props.opacity}
+			 />
 			<Container className="projects-container">
 				<Row className="show-grid text-center">
 					<CardList projects ={projects}/>
