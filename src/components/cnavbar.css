@@ -1,5 +1,5 @@
 nav.navbar, .navbar-default {
-  background-color: rgba(120,0,0,0.3) !important;
+ color: rgba(44, 25, 25, 0.3)
 }
 
 .navbar-nav {
@@ -22,7 +22,6 @@ nav.navbar, .navbar-default {
   font-family: 'Roboto Condensed', sans-serif;
   position: relative-top;
   width: 5%;
-  text-align:
 }
 
  .navbar-toggler-icon {
@@ -34,3 +33,9 @@ nav.navbar, .navbar-default {
     margin-right:10px;
    }
 
+  .navclass {
+  z-index:200;
+  width: 100%;
+    position: fixed;
+  transition: opacity .1s ease;
+}

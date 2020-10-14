@@ -6,8 +6,31 @@ import './cnavbar.css';
 export default class Navbar2 extends Component {
   constructor() {
      super();
-     this.state = { text : 'AW'}
+     this.state = {
+        text : 'AW',
+        backgroundColor: 'rgba(120,0,0,.3)',
+        color: 'black'
+      }
    }
+
+   componentDidMount() {
+    if (typeof window !== "undefined") {
+      window.onscroll = () => {
+        let currentScrollPos = window.pageYOffset;
+        // console.log(maxScroll)
+        if (currentScrollPos > 0) {
+          this.setState({ backgroundColor: "rgba(44, 25, 25)" },);
+          this.setState({ color: "white" },)
+          // console.log(currentScrollPos)
+        } else {
+          this.setState({ backgroundColor: "rgba(120,0,0,.3)" });
+          this.setState({ color: "black" },)
+        }
+      }
+    }
+  }
+
+
    //set the text
    onMouseover (e) {
      this.setState({text : 'Aaron Waguespack'})
@@ -20,10 +43,15 @@ export default class Navbar2 extends Component {
   render() {
     const {text} = this.state;
     return (
-      <Navbar fixed="top"  expand="lg" default collapseOnSelect >
+      <Navbar fixed="top"  expand="lg" default collapseOnSelect
+      className="navclass"
+       style={{ background: `${this.state.backgroundColor}`}}
+      >
       <Navbar.Brand href="/"
           onMouseEnter={this.onMouseover.bind(this)}
-          onMouseLeave={this.onMouseout.bind(this)}>{text}</Navbar.Brand>
+          onMouseLeave={this.onMouseout.bind(this)}
+          style={{ color: `${this.state.color}`}}
+          >{text}</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" className="ml-auto"/>
       <Navbar.Collapse id="basic-navbar-nav">
       <Nav >

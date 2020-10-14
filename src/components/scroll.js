@@ -26,7 +26,7 @@ class Index extends Component {
   render() {
     return (
         <div className="your-class" style={{ opacity: `${this.state.opacity}`}} >
-         {/* additonal content */} Hello World
+         Please note: Long initial project load time due to Heroku free hosting.
         </div>
     )
   }
