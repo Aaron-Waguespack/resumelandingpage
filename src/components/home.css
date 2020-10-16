@@ -63,3 +63,9 @@
   margin-top: 25px;
   padding-top: 25px;
 }
+
+
+@media only screen and (max-width: 530px){
+  .email {
+    font-size: medium;
+  }}

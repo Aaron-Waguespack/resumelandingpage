@@ -42,7 +42,7 @@ export default class Home extends Component {
                  Essbase, Hyperion, Oracle, SAP, Adaptive, Management Reporter, internal ERP financial systems,
                  Salesforce.com </p>
             <a className="gitlink" href="https://github.com/Aaron-Waguespack/">--- GitHub Link ---</a>
-            <h3>Contact me at: Aaron.Paul.Waguespack@gmail.com</h3>
+            <h3 className="email">Contact me at: Aaron.Paul.Waguespack@gmail.com</h3>
             </Container>
           </Col>
         </Container>
