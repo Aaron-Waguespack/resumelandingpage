@@ -5,8 +5,11 @@ import './home.css';
 export default class Home extends Component {
   render() {
     return (
-      <div>
+      <div class="container-fluid px-0">
+        <div class = "row align-items-center">
+        <div class="col-md-12">
         <Image src="assets/old14c.jpg" className="header-image-home" />
+        </div>
         <Container className="container-home">
           <Col  lg={12}>
             <Image src="assets/profile01.jpg" className="home-profile-pic" roundedCircle />
@@ -44,6 +47,8 @@ export default class Home extends Component {
           </Col>
         </Container>
       </div>
+      </div>
+
     )
   }
 }

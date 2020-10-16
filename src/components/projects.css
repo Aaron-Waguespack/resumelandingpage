@@ -22,7 +22,6 @@
     position: fixed;
 	transition: opacity .1s ease;
 	background-color: rgb(226, 226, 107);
-	height: 50px;
 	text-align: center;
 	font-weight: bold;
 	font-size: 25px;

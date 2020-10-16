@@ -49,7 +49,7 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div>
+        <div  >
           <Navbar2
             handleClick = {this.handleClick}
             handleScroll= {this.handleScroll}

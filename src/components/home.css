@@ -10,6 +10,16 @@
   margin-bottom: 2em;
 }
 
+@media only screen and (max-width: 361px){
+  .header-image-home {
+    width: 100%;
+    min-height:400px;
+    margin-top: -3em;
+    margin-bottom: 2em;
+  }
+}
+
+
 .home-profile-pic {
   float: left;
   width: 50%;
@@ -22,6 +32,7 @@
   margin: 0 2em 1em 0;
   width: 100%;
   padding: 0 7em 0 7em;
+
   }
 
   .header-image-home {
