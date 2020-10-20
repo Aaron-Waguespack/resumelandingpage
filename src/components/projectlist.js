@@ -3,7 +3,7 @@ export const projects = [
     id: 1,
     image:"assets/polebarn.png",
     name: "Polebarn",
-    desc: "Polebarn is an working single page website mockup for a client. It mobile moblie ready. Made with React, Javascript, Bootstrap. Next steps will be finishing the form section to send SMS texts on submit and the readme.",
+    desc: "Polebarn is an single page mobile ready website mockup for a client. Made with React, Javascript, Bootstrap. Next steps will be finishing the form section to send SMS texts on submit and the readme.",
     link: "https://polebarn.herokuapp.com/",
     gitlink: "https://github.com/Aaron-Waguespack/polebarn"
 },
